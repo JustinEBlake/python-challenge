@@ -33,7 +33,6 @@ for x in range(len(budget_list)-1):
     month_2 = int(budget_list[x+1][1])
 
     # Calculate the net amount of Profit/Loss over the entire period.
-    monthly_sum = month_1 + month_2
     total_pl += month_2
 
     # Calculate the changes in "Profit/Losses" over the entire period
