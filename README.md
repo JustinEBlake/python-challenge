@@ -4,11 +4,11 @@
 
 Python script that analyzes the records to calculate each of the following values:
 
-  - The total number of months included in the dataset
-  - The net total amount of "Profit/Losses" over the entire period
-  - The changes in "Profit/Losses" over the entire period, and then the average of those changes
-  - The greatest increase in profits (date and amount) over the entire period
-  - The greatest decrease in profits (date and amount) over the entire period
+  1. The total number of months included in the dataset
+  1. The net total amount of "Profit/Losses" over the entire period
+  1. The changes in "Profit/Losses" over the entire period, and then the average of those changes
+  1. The greatest increase in profits (date and amount) over the entire period
+  1. The greatest decrease in profits (date and amount) over the entire period
 
 ## PyBank Location
 
@@ -25,11 +25,11 @@ Python script that analyzes the records to calculate each of the following value
 
 Python script that analyzes the votes and calculates each of the following values:
 
-  - The total number of votes cast
-  - A complete list of candidates who received votes
-  - The percentage of votes each candidate won
-  - The total number of votes each candidate won
-  - The winner of the election based on popular vote
+  1. The total number of votes cast
+  1. A complete list of candidates who received votes
+  1. The percentage of votes each candidate won
+  1. The total number of votes each candidate won
+  1. The winner of the election based on popular vote
 
 ## PyPoll Location
 
