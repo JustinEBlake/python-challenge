@@ -2,7 +2,7 @@ import os
 import csv
 
 # Set file path
-poll_path = os.path.join("Resources", "election_data.csv")
+poll_path = os.path.join("PyPoll", "Resources", "election_data.csv")
 
 # Store the name of each candidate from each individual poll
 raw_votes = []
@@ -70,7 +70,7 @@ final_analysis_text = text_1 + text_2 + text_3
 #---------------------Write final analysis to text file-------------------------------------------
 
 # Set file path
-analysis_txt_file = os.path.join("Analysis", "poll_analysis.txt")
+analysis_txt_file = os.path.join("PyPoll", "Analysis", "poll_analysis.txt")
 
 # Write to file
 with open(analysis_txt_file, mode= "w", encoding="UTF-8") as text:
