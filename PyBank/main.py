@@ -2,7 +2,7 @@ import os
 import csv
 
 # Set path for file
-budget_file = os.path.join("Resources", "budget_data.csv") 
+budget_file = os.path.join("PyBank", "Resources", "budget_data.csv") 
 
 # Open the csv file
 with open(budget_file, mode="r", encoding="UTF-8") as budget_csv:
@@ -65,7 +65,7 @@ results_5 = (f"Greatest Decrease in Profits: {min_month} (${decrease_min})")
 final_analysis_txt = (f"Financial Analysis\n\n----------------------------\n\n{results_1}\n\n{results_2}\n\n{results_3}\n\n{results_4}\n\n{results_5}")
 
 # Set path for file
-analysis_file = os.path.join("Analysis", "pybank_analysis.txt")
+analysis_file = os.path.join("PyBank", "Analysis", "pybank_analysis.txt")
 
 # Write message on text file
 with open(analysis_file, mode="w", encoding="UTF-8") as text:
